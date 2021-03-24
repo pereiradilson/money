@@ -18,15 +18,15 @@ createServer({
           value: 1200,
           category: 'Salário',
           type: 'deposit',
-          createAt: new Date('2021-02-12 10:00:00'),
+          createdAt: new Date('2021-02-12 10:00:00'),
         },
         {
           id: 2,
-          title: 'Supermercado Giassi',
+          title: 'Supermercado',
           value: 600,
           category: 'Alimentação',
           type: 'withdraw',
-          createAt: new Date('2021-02-13 18:00:00'),
+          createdAt: new Date('2021-02-13 18:00:00'),
         },
       ],
     });
